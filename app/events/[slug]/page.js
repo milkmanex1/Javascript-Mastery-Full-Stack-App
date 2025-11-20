@@ -1,4 +1,4 @@
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 import React from "react";
 import { notFound } from "next/navigation";
 import Image from "next/image";
@@ -6,6 +6,8 @@ import BookEvent from "@/components/BookEvent";
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 import { getSimilarEventsBySlug } from "@/lib/actions/event.action";
 import EventCard from "@/components/EventCard";
+import connectDB from "@/lib/mongodb";
+import Event from "@/database/event.model";
 
 const EventDetailItem = ({ icon, alt, label }) => {
   return (
@@ -43,12 +45,17 @@ const EventTags = ({ tags }) => {
 
 const EventDetailsPage = async ({ params }) => {
   const { slug } = await params;
-  const response = await fetch(`${BASE_URL}/api/events/${slug}`);
-  if (!response.ok) {
-    console.error(`Failed to fetch event: ${response.status}`);
-    return notFound();
-  }
-  const { data } = await response.json();
+  //   const response = await fetch(`${BASE_URL}/api/events/${slug}`);
+  //   if (!response.ok) {
+  //     console.error(`Failed to fetch event: ${response.status}`);
+  //     return notFound();
+  //   }
+  //   const { data } = await response.json();
+
+  //   if (!data) return notFound();
+
+  await connectDB();
+  const data = await Event.findOne({ slug }).lean();
 
   if (!data) return notFound();
   const {
