@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import React from "react";
 import { notFound } from "next/navigation";
 import Image from "next/image";
@@ -43,6 +44,10 @@ const EventTags = ({ tags }) => {
 const EventDetailsPage = async ({ params }) => {
   const { slug } = await params;
   const response = await fetch(`${BASE_URL}/api/events/${slug}`);
+  if (!response.ok) {
+    console.error(`Failed to fetch event: ${response.status}`);
+    return notFound();
+  }
   const { data } = await response.json();
 
   if (!data) return notFound();
