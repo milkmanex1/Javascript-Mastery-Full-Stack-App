@@ -1,15 +1,26 @@
 import React from "react";
 import ExploreBtn from "../components/ExploreBtn";
 import EventCard from "../components/EventCard";
+import connectDB from "@/lib/mongodb";
+import Event from "@/database/event.model";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 const Page = async () => {
   //the backend API endpoint name is automcatically created based on the file structure inside the "<root>/api/events/route.js"
-  const response = await fetch(`${BASE_URL}/api/events`);
-  const { data } = await response.json();
-  const events = data;
-  console.log(data);
+  //   const response = await fetch(`${BASE_URL}/api/events`);
+
+  //instead of fetching from our own API, we are fetching from the database directly
+  //this is to avoid error in vercel during build time data fetching
+  //
+  await connectDB();
+  const unserializedEvents = await Event.find().sort({ createdAt: -1 }).lean();
+
+  // Convert MongoDB _id to string for serialization
+  const events = unserializedEvents.map((event) => ({
+    ...event,
+    _id: event._id.toString(),
+  }));
 
   return (
     <section className="text-center">
