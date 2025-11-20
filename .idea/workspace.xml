@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2d93742-1663-4b78-a56e-8a59fe6b8004" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/public/icons/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/icons/audience.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/icons/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/icons/clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/icons/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/icons/mode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/icons/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/images/event-full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/images/event1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/images/event2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/images/event3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/images/event4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/images/event5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/images/event6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/jsmpro-logo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/jsmpro-thumbnail.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/readme-hero.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/readme-jsmpro.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/readme-videokit.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/thumbnail-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/thumbnail-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/thumbnail-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/public/readme/thumbnail-2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/window.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/my-app" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="35aC2dear8onuJCYYmkU2ySnChq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Next Js/Javascript Mastery Full Stack App/my-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Next Js\Javascript Mastery Full Stack App\my-app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Next Js\Javascript Mastery Full Stack App\my-app\app" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2d93742-1663-4b78-a56e-8a59fe6b8004" name="Changes" comment="" />
+      <created>1763338601533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763338601533</updated>
+      <workItem from="1763338609092" duration="7386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
